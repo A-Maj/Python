@@ -67,9 +67,9 @@ print(przyszłość)
 a = (1,2,3)
 print(type(a))
 
-print (a[0])
-print (a[1])
-print (a[2])
+print(a[0])
+print(a[1])
+print(a[2])
 
 a = (1,2,3,'s','a','m','n')
 print(type(a))
@@ -368,7 +368,7 @@ print (10 * ('Pan ' + imie + ' ' + nazwisko + '(' + ' wiek ' + str(wiek) + 'lat'
 dochod = 700
 koszt = 500
 wiekszy_dochod = 1.5
-dochod2 = dochod - koszt * wiekszy_dochod
+dochod2 = (dochod - koszt) * wiekszy_dochod
 dochod3 = dochod2 * wiekszy_dochod
 
 print(dochod - koszt + dochod2 + dochod3)
